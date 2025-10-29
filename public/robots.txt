@@ -1,0 +1,9 @@
+# robots.txt for Tamil Harmonic
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://tamilharmonic.com/sitemap.xml
+
+

@@ -18,7 +18,7 @@ export default function Hero() {
           <h1 className="text-5xl md:text-7xl font-bold mt-20 text-white mb-6 leading-tight">
             Learn Indian Market &<br />
             <span className="bg-gradient-to-r from-blue-400 via-cyan-400 to-emerald-400 bg-clip-text text-transparent animate-gradient">
-              Forex with Tamil Harmonic Trader Raj
+              Forex with Tamil Harmonic
             </span>
           </h1>
 

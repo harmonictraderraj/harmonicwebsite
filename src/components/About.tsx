@@ -35,7 +35,7 @@ export default function About() {
             Your Trusted Trading Partner
           </h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            Tamil Harmonic Trader Raj brings years of market experience and expertise to help you navigate
+            Tamil Harmonic brings years of market experience and expertise to help you navigate
             the complex world of trading with confidence and knowledge.
           </p>
         </div>

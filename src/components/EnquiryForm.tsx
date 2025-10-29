@@ -14,11 +14,26 @@ export default function EnquiryForm() {
     e.preventDefault();
     setStatus('loading');
 
-    setTimeout(() => {
-      setStatus('success');
-      setFormData({ name: '', email: '', phone: '', message: '' });
+    try {
+    // Prepare WhatsApp message
+const { name, email, phone, message } = formData;
+const whatsappMessage = `New Enquiry:%0A%0AName: ${name}%0AEmail: ${email}%0APhone: ${phone}%0AMessage: ${message}%0A%0A`;
+
+      
+      // WhatsApp link (opens chat automatically)
+      const whatsappUrl = `https://wa.me/919360349002?text=${whatsappMessage}`;
+      window.open(whatsappUrl, '_blank');
+
+      // Show success message
+      setTimeout(() => {
+        setStatus('success');
+        setFormData({ name: '', email: '', phone: '', message: '' });
+        setTimeout(() => setStatus('idle'), 5000);
+      }, 1000);
+    } catch (error) {
+      setStatus('error');
       setTimeout(() => setStatus('idle'), 5000);
-    }, 1000);
+    }
   };
 
   return (
@@ -43,14 +58,14 @@ export default function EnquiryForm() {
             {status === 'success' && (
               <div className="mb-6 p-4 bg-emerald-50 border border-emerald-200 rounded-xl flex items-center gap-3 animate-fade-in">
                 <CheckCircle className="w-6 h-6 text-emerald-600 flex-shrink-0" />
-                <p className="text-emerald-800 font-medium">Thank you! We'll get back to you soon.</p>
+                <p className="text-emerald-800 font-medium">Thank you! Your enquiry has been sent via WhatsApp.</p>
               </div>
             )}
 
             {status === 'error' && (
               <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-xl flex items-center gap-3 animate-fade-in">
                 <AlertCircle className="w-6 h-6 text-red-600 flex-shrink-0" />
-                <p className="text-red-800 font-medium">Failed to submit form. Please try again.</p>
+                <p className="text-red-800 font-medium">Failed to send message. Please try again.</p>
               </div>
             )}
 
@@ -131,7 +146,7 @@ export default function EnquiryForm() {
                   ) : (
                     <>
                       <Send className="w-5 h-5" />
-                      Send Enquiry
+                      Send Enquiry via WhatsApp
                     </>
                   )}
                 </span>

@@ -74,8 +74,8 @@ export default function Footer() {
             © 2025 Tamil Harmonic Trader Raj. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm">
-            <a href="#" className="text-slate-400 hover:text-cyan-400 transition-colors">Privacy Policy</a>
-            <a href="#" className="text-slate-400 hover:text-cyan-400 transition-colors">Terms of Service</a>
+            <a href="/privacy-policy" className="text-slate-400 hover:text-cyan-400 transition-colors">Privacy Policy</a>
+            <a href="/terms-of-service" className="text-slate-400 hover:text-cyan-400 transition-colors">Terms of Service</a>
           </div>
         </div>
       </div>

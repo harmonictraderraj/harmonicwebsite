@@ -15,6 +15,7 @@ export default function Navbar() {
   }, []);
 
   const navLinks = [
+    { href: '/', label: 'Home' },
     { href: '#about', label: 'About' },
     { href: '#services', label: 'Services' },
     { href: '#demo', label: 'Demo Class' },
@@ -36,7 +37,7 @@ export default function Navbar() {
               <TrendingUp className="w-6 h-6 text-white" />
             </div>
             <span className="text-white font-bold text-lg hidden sm:block">
-              Tamil Harmonic Trader Raj
+              Tamil Harmonic
             </span>
           </a>
 
