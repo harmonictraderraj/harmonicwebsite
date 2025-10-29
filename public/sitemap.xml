@@ -1,36 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset 
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 
+                      http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- Homepage -->
   <url>
-    <loc>https://tamilharmonic.com/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <loc>https://www.tamilharmonic.com/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <!-- About Section -->
   <url>
-    <loc>https://tamilharmonic.com/about</loc>
+    <loc>https://www.tamilharmonic.com/#about</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+
+  <!-- Services Section -->
   <url>
-    <loc>https://tamilharmonic.com/services</loc>
+    <loc>https://www.tamilharmonic.com/#services</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+
+  <!-- Demo Class Section -->
   <url>
-    <loc>https://tamilharmonic.com/demo-class</loc>
+    <loc>https://www.tamilharmonic.com/#demo</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
+
+  <!-- Enquiry Section -->
   <url>
-    <loc>https://tamilharmonic.com/contact</loc>
+    <loc>https://www.tamilharmonic.com/#enquiry</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
+
+  <!-- Contact Section -->
   <url>
-    <loc>https://tamilharmonic.com/get-started</loc>
+    <loc>https://www.tamilharmonic.com/#contact</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
+
+  <!-- Privacy Policy -->
+  <url>
+    <loc>https://www.tamilharmonic.com/privacy-policy</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Terms of Service -->
+  <url>
+    <loc>https://www.tamilharmonic.com/terms-of-service</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
 </urlset>
-
-

@@ -5,6 +5,7 @@ import Services from './components/Services';
 import DemoClass from './components/DemoClass';
 import EnquiryForm from './components/EnquiryForm';
 import Footer from './components/Footer';
+import Contact from './components/Contact';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsOfService from './pages/TermsOfService';
 import { Phone, MessageCircle } from 'lucide-react';
@@ -27,6 +28,7 @@ function Home() {
       <Hero />
       <About />
       <Services />
+      <Contact />
       <DemoClass />
       <EnquiryForm />
       <Footer />

@@ -19,7 +19,7 @@ export default function Navbar() {
     { href: '#about', label: 'About' },
     { href: '#services', label: 'Services' },
     { href: '#demo', label: 'Demo Class' },
-    { href: '#enquiry', label: 'Contact' }
+    { href: '#contact', label: 'Contact' }
   ];
 
   return (
