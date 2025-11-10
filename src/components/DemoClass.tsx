@@ -1,6 +1,7 @@
 import { Play, CheckCircle } from 'lucide-react';
+import StudentFeedback from './StudentFeedback';
 
-export default function DemoClass() {
+export default function DemoClassSection() {
   const benefits = [
     "Learn market fundamentals from scratch",
     "Understand technical analysis techniques",
@@ -10,23 +11,32 @@ export default function DemoClass() {
   ];
 
   return (
-    <section id="demo" className="py-24 bg-gradient-to-b from-slate-900 via-blue-900 to-slate-900 relative overflow-hidden">
+    <section
+      id="demo"
+      className="py-24 bg-gradient-to-b from-slate-900 via-blue-900 to-slate-900 relative overflow-hidden"
+    >
+      {/* Background blobs */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-20 left-20 w-96 h-96 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl animate-blob"></div>
         <div className="absolute bottom-20 right-20 w-96 h-96 bg-cyan-500 rounded-full mix-blend-multiply filter blur-3xl animate-blob animation-delay-2000"></div>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        {/* Demo Class Header */}
         <div className="text-center mb-16 animate-fade-in-up">
-          <span className="text-blue-400 font-semibold text-sm uppercase tracking-wider">Demo Class</span>
+          <span className="text-blue-400 font-semibold text-sm uppercase tracking-wider">
+            Demo Class
+          </span>
           <h2 className="text-4xl md:text-5xl font-bold text-white mt-2 mb-4">
             Experience Our Teaching Style
           </h2>
           <p className="text-xl text-blue-200 max-w-3xl mx-auto">
-            Watch a free demo class and discover how we make trading education simple, practical, and effective
+            Watch a free demo class and discover how we make trading education
+            simple, practical, and effective
           </p>
         </div>
 
+        {/* Demo Video and Benefits */}
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in-left">
             <div className="relative group">
@@ -46,6 +56,7 @@ export default function DemoClass() {
             </div>
           </div>
 
+          {/* Benefits */}
           <div className="animate-fade-in-right">
             <h3 className="text-3xl font-bold text-white mb-6">
               What You'll Learn
@@ -67,6 +78,7 @@ export default function DemoClass() {
               ))}
             </div>
 
+            {/* Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
               <a
                 href="https://www.youtube.com/@tamilharmonictraderraj-ok5fi"
@@ -90,6 +102,9 @@ export default function DemoClass() {
             </div>
           </div>
         </div>
+
+        {/* Student Feedback Component */}
+        <StudentFeedback />
       </div>
     </section>
   );
