@@ -197,7 +197,7 @@ export default function TermsOfService() {
           <p className="text-slate-600">
             Stock market trading and investing involve risk. Past performance is not indicative of future
             results. All strategies and tools on TamilHarmonicTrader.com are for educational purposes only.
-            We are not responsible for any financial loss incurred by users.
+            We are not responsible for any financial loss incurred by users
           </p>
         </section>
       </div>
