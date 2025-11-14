@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Phone, Send, MapPin } from 'lucide-react';
 
 export default function Footer() {
@@ -41,10 +42,11 @@ export default function Footer() {
           <div className="animate-fade-in-up" style={{ animationDelay: '100ms' }}>
             <h4 className="text-lg font-bold mb-4">Quick Links</h4>
             <ul className="space-y-2">
-              <li><a href="#about" className="text-slate-400 hover:text-cyan-400 transition-colors">About Us</a></li>
-              <li><a href="#services" className="text-slate-400 hover:text-cyan-400 transition-colors">Our Services</a></li>
-              <li><a href="#demo" className="text-slate-400 hover:text-cyan-400 transition-colors">Demo Class</a></li>
-              <li><a href="#enquiry" className="text-slate-400 hover:text-cyan-400 transition-colors">Contact</a></li>
+              <li><Link to="/about" className="text-slate-400 hover:text-cyan-400 transition-colors">About Us</Link></li>
+              <li><Link to="/services" className="text-slate-400 hover:text-cyan-400 transition-colors">Our Services</Link></li>
+              <li><Link to="/demo-class" className="text-slate-400 hover:text-cyan-400 transition-colors">Demo Class</Link></li>
+              <li><Link to="/contact" className="text-slate-400 hover:text-cyan-400 transition-colors">Contact</Link></li>
+              <li><Link to="/get-started" className="text-slate-400 hover:text-cyan-400 transition-colors">Get Started</Link></li>
             </ul>
           </div>
 
@@ -74,8 +76,8 @@ export default function Footer() {
             © 2025 Tamil Harmonic Trader Raj. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm">
-            <a href="/privacy-policy" className="text-slate-400 hover:text-cyan-400 transition-colors">Privacy Policy</a>
-            <a href="/terms-of-service" className="text-slate-400 hover:text-cyan-400 transition-colors">Terms of Service</a>
+            <Link to="/privacy-policy" className="text-slate-400 hover:text-cyan-400 transition-colors">Privacy Policy</Link>
+            <Link to="/terms-of-service" className="text-slate-400 hover:text-cyan-400 transition-colors">Terms of Service</Link>
           </div>
         </div>
       </div>

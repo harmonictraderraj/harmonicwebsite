@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Phone, Mail, MapPin, Clock, Send } from 'lucide-react';
 
 export default function Contact() {
@@ -60,12 +61,12 @@ export default function Contact() {
             <Send className="w-5 h-5" />
             Chat on WhatsApp
           </a>
-          <a
-            href="#enquiry"
+          <Link
+            to="/get-started"
             className="px-6 py-3 bg-white/60 backdrop-blur text-slate-900 rounded-full font-semibold border border-slate-200 hover:bg-white transition"
           >
             Go to Enquiry Form
-          </a>
+          </Link>
         </div>
       </div>
     </section>

@@ -10,41 +10,47 @@
     <loc>https://www.tamilharmonic.com/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <lastmod>2025-01-01</lastmod>
   </url>
 
-  <!-- About Section -->
+  <!-- About Page -->
   <url>
-    <loc>https://www.tamilharmonic.com/#about</loc>
+    <loc>https://www.tamilharmonic.com/about</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <lastmod>2025-01-01</lastmod>
+  </url>
+
+  <!-- Services Page -->
+  <url>
+    <loc>https://www.tamilharmonic.com/services</loc>
     <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <lastmod>2025-01-01</lastmod>
+  </url>
+
+  <!-- Demo Class Page -->
+  <url>
+    <loc>https://www.tamilharmonic.com/demo-class</loc>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <lastmod>2025-01-01</lastmod>
   </url>
 
-  <!-- Services Section -->
+  <!-- Contact Page -->
   <url>
-    <loc>https://www.tamilharmonic.com/#services</loc>
-    <changefreq>weekly</changefreq>
+    <loc>https://www.tamilharmonic.com/contact</loc>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <lastmod>2025-01-01</lastmod>
   </url>
 
-  <!-- Demo Class Section -->
+  <!-- Get Started / Enquiry Page -->
   <url>
-    <loc>https://www.tamilharmonic.com/#demo</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- Enquiry Section -->
-  <url>
-    <loc>https://www.tamilharmonic.com/#enquiry</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- Contact Section -->
-  <url>
-    <loc>https://www.tamilharmonic.com/#contact</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://www.tamilharmonic.com/get-started</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2025-01-01</lastmod>
   </url>
 
   <!-- Privacy Policy -->
@@ -52,6 +58,7 @@
     <loc>https://www.tamilharmonic.com/privacy-policy</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <lastmod>2025-01-01</lastmod>
   </url>
 
   <!-- Terms of Service -->
@@ -59,6 +66,7 @@
     <loc>https://www.tamilharmonic.com/terms-of-service</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <lastmod>2025-01-01</lastmod>
   </url>
 
 </urlset>

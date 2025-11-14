@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Play, CheckCircle } from 'lucide-react';
 import StudentFeedback from './StudentFeedback';
 
@@ -93,12 +94,12 @@ export default function DemoClassSection() {
                 <div className="absolute inset-0 bg-gradient-to-r from-pink-500 to-red-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </a>
 
-              <a
-                href="#enquiry"
+              <Link
+                to="/get-started"
                 className="px-8 py-4 bg-white/10 backdrop-blur-sm text-white rounded-full font-semibold text-lg border-2 border-white/20 hover:bg-white/20 hover:border-white/40 transform hover:scale-105 transition-all duration-300 text-center"
               >
                 Enroll Now
-              </a>
+              </Link>
             </div>
           </div>
         </div>
