@@ -1,8 +1,85 @@
-import { TrendingUp, Play, Send } from 'lucide-react';
+import { Play, Send } from 'lucide-react';
+import SEO from './SEO';
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900">
+    <>
+      <SEO
+        title="Learn Indian Market & Forex in Tamil | Nifty Analysis | Tamil Harmonic"
+        description="Learn Indian Market, Nifty, and Forex trading in Tamil with live market updates, expert analysis, and full educational videos. Join Tamil Harmonic for accurate signals, demo classes, and complete trading guidance."
+        keywords="Indian market analysis, Tamil share market analysis, Nifty 50 live analysis, Nifty intraday tips, Forex trading in Tamil, Learn stock market in Tamil, Stock market course Tamil, Intraday trading tips Tamil, Best trading mentor in Tamil Nadu, Harmonic trading strategy Tamil, Live market updates Tamil, Buy sell signals Tamil, NSE analysis today, BSE market analysis, Forex live signals India, Currency trading for beginners, Price action trading Tamil, About Tamil Harmonic, Trading services, Contact trading mentor, Demo class Tamil, Enquiry form trading course"
+        canonical="https://www.tamilharmonic.com/"
+        structuredData={{
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "name": "Learn Indian Market & Forex in Tamil | Tamil Harmonic",
+          "description": "Learn Indian Market, Nifty, and Forex trading in Tamil with live market updates, expert analysis, and comprehensive educational videos.",
+          "url": "https://www.tamilharmonic.com",
+          "inLanguage": "ta",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Tamil Harmonic",
+            "url": "https://www.tamilharmonic.com"
+          },
+          "mainEntity": {
+            "@type": "Organization",
+            "name": "Tamil Harmonic",
+            "description": "Your trusted trading partner for Indian Market Analysis, Nifty Trading, and Forex Education in Tamil",
+            "url": "https://www.tamilharmonic.com",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+91-93603-49002",
+              "contactType": "Customer Service",
+              "areaServed": "IN",
+              "availableLanguage": ["ta", "en"]
+            },
+            "address": {
+              "@type": "PostalAddress",
+              "addressRegion": "Tamil Nadu",
+              "addressCountry": "IN"
+            },
+            "email": "tamilharmonictraderraj@gmail.com",
+            "sameAs": [
+              "https://www.youtube.com/@tamilharmonictraderraj-ok5fi",
+              "https://www.instagram.com/tamil_harmonic_trader_raj/",
+              "https://t.me/tamilharmonictraderraj"
+            ]
+          },
+          "hasPart": [
+            {
+              "@type": "WebPageElement",
+              "name": "About Us",
+              "description": "Tamil Harmonic brings years of market experience and expertise to help you navigate the complex world of trading with confidence.",
+              "url": "https://www.tamilharmonic.com/#about"
+            },
+            {
+              "@type": "WebPageElement",
+              "name": "Our Services",
+              "description": "Comprehensive trading services: Indian Market Analysis, Forex Updates, Nifty 50 Analysis, and Educational Content.",
+              "url": "https://www.tamilharmonic.com/#services"
+            },
+            {
+              "@type": "WebPageElement",
+              "name": "Contact",
+              "description": "Contact Tamil Harmonic for trading education, market analysis, and Forex learning support.",
+              "url": "https://www.tamilharmonic.com/#contact"
+            },
+            {
+              "@type": "WebPageElement",
+              "name": "Demo Class",
+              "description": "Watch a free demo class and discover how Tamil Harmonic makes trading education simple, practical, and effective.",
+              "url": "https://www.tamilharmonic.com/#demo"
+            },
+            {
+              "@type": "WebPageElement",
+              "name": "Enquiry Form",
+              "description": "Fill out the enquiry form to start your trading journey with Tamil Harmonic.",
+              "url": "https://www.tamilharmonic.com/#enquiry"
+            }
+          ]
+        }}
+      />
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900">
       <div className="absolute inset-0 opacity-20">
         <div className="absolute top-20 left-10 w-72 h-72 bg-blue-500 rounded-full mix-blend-multiply filter blur-xl animate-blob"></div>
         <div className="absolute top-40 right-10 w-72 h-72 bg-cyan-500 rounded-full mix-blend-multiply filter blur-xl animate-blob animation-delay-2000"></div>
@@ -74,5 +151,6 @@ export default function Hero() {
 
      
     </section>
+    </>
   );
 }

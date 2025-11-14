@@ -1,8 +1,31 @@
 import { FaUser, FaGlobe, FaEnvelope, FaPhone, FaExclamationTriangle } from "react-icons/fa";
+import SEO from '../components/SEO';
 
 export default function TermsOfService() {
   return (
-    <main className="min-h-screen bg-white text-slate-900">
+    <>
+      <SEO
+        title="Terms of Service - Tamil Harmonic | Trading Education Terms & Conditions"
+        description="Terms of Service for Tamil Harmonic trading education platform. Read our terms and conditions for using our Indian Market, Nifty, and Forex trading education services. Last updated November 2025."
+        keywords="Terms of Service Tamil Harmonic, Trading education terms, Terms and conditions trading course, SEBI compliance terms, Trading platform terms, Educational service terms Tamil Nadu, Legal terms trading education"
+        canonical="https://www.tamilharmonic.com/terms-of-service"
+        structuredData={{
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "name": "Terms of Service - Tamil Harmonic",
+          "description": "Terms of Service for Tamil Harmonic trading education platform.",
+          "url": "https://www.tamilharmonic.com/terms-of-service",
+          "datePublished": "2025-11-01",
+          "dateModified": "2025-11-01",
+          "inLanguage": "en",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Tamil Harmonic",
+            "url": "https://www.tamilharmonic.com"
+          }
+        }}
+      />
+      <main className="min-h-screen bg-white text-slate-900">
       <div className="max-w-3xl mx-auto px-4 py-16">
         <h1 className="text-4xl font-bold mb-6">Terms of Service</h1>
         <p className="text-slate-500 mb-8">Last Updated: November 2025</p>
@@ -202,5 +225,6 @@ export default function TermsOfService() {
         </section>
       </div>
     </main>
+    </>
   );
 }

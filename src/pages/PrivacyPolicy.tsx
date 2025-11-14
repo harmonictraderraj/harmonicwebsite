@@ -1,8 +1,31 @@
 import { FaUser, FaGlobe, FaEnvelope, FaPhone, FaExclamationTriangle } from "react-icons/fa";
+import SEO from '../components/SEO';
 
 export default function PrivacyPolicy() {
   return (
-    <main className="min-h-screen bg-white text-slate-900">
+    <>
+      <SEO
+        title="Privacy Policy - Tamil Harmonic | Data Protection & Privacy"
+        description="Privacy Policy for Tamil Harmonic. Learn how we collect, use, store, and protect your personal information when you access our trading education platform. Last updated November 2025."
+        keywords="Privacy Policy Tamil Harmonic, Data protection trading education, Privacy terms Tamil Nadu, Trading platform privacy, Data security trading course, Personal information protection, SEBI compliance privacy"
+        canonical="https://www.tamilharmonic.com/privacy-policy"
+        structuredData={{
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "name": "Privacy Policy - Tamil Harmonic",
+          "description": "Privacy Policy for Tamil Harmonic trading education platform.",
+          "url": "https://www.tamilharmonic.com/privacy-policy",
+          "datePublished": "2025-11-01",
+          "dateModified": "2025-11-01",
+          "inLanguage": "en",
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "Tamil Harmonic",
+            "url": "https://www.tamilharmonic.com"
+          }
+        }}
+      />
+      <main className="min-h-screen bg-white text-slate-900">
       <div className="max-w-3xl mx-auto px-4 py-16">
         <h1 className="text-4xl font-bold mb-2">Privacy Policy</h1>
         <p className="text-slate-500 mb-8">Last Updated: November 2025</p>
@@ -210,5 +233,6 @@ export default function PrivacyPolicy() {
         </section>
       </div>
     </main>
+    </>
   );
 }
