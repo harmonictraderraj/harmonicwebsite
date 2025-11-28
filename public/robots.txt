@@ -1,9 +1,11 @@
 # robots.txt for Tamil Harmonic
+# Tamil Nadu-based educational site - Trading Education Organization
+# Location: Coimbatore, Tamil Nadu, India
 
 User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://tamilharmonic.com/sitemap.xml
+Sitemap: https://www.tamilharmonic.com/sitemap.xml
 
 

@@ -37,9 +37,18 @@ export default function ContactPage() {
               },
               "address": {
                 "@type": "PostalAddress",
+                "streetAddress": "No 12, Ohm Ganesh Nagar",
+                "addressLocality": "Coimbatore",
                 "addressRegion": "Tamil Nadu",
+                "postalCode": "641041",
                 "addressCountry": "IN"
-              }
+              },
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "11.01684",
+                "longitude": "76.95583"
+              },
+              "hasMap": "https://www.google.com/maps?q=11.01684,76.95583"
             }
           }
         }}

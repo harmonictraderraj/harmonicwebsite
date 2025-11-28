@@ -1,0 +1,189 @@
+# llms.txt - Content & Prompt Bank for TamilHarmonic Website
+# Generated: 2025-11-28
+
+#########################
+# Site Identity
+#########################
+site_name: Tamil Harmonic
+primary_domain: https://www.tamilharmonic.com
+owner: Trader Raj
+primary_language: ta (Tamil)
+secondary_language: en (English)
+business_type: Trading education (Indian Market, Nifty, Forex)
+location: Tamil Nadu, India
+audience: Beginner to advanced retail traders, Tamil-speaking learners, forex enthusiasts
+
+#########################
+# High-Level Guidance for LLM
+#########################
+# Tone: Friendly, authoritative, conversational, encouraging, practical
+# Style: Tamil-first for local pages; clear English for wider reach. Use short sentences, examples, and step-by-step instructions for technical topics.
+# Safety & Compliance Notes (to include in generated content):
+# - Content should clearly state it is for educational purposes only and not financial advice.
+# - If business is not SEBI-registered, include a prominent disclaimer about not being a registered investment advisor.
+# - Avoid promising guaranteed returns or suggesting insider/illegal trading practices.
+
+#########################
+# Prompt Templates (general)
+#########################
+# 1) Page meta + short description
+# "Write a 150-character meta description for the page [PAGE_NAME] on Tamil Harmonic. Language: [ta|en]. Tone: [friendly|formal|urgent|conversational]. Include main keyword: [KEYWORD]. Add CTA at the end."
+
+# 2) Long-form blog post outline
+# "Create a detailed outline for a 1200-1600 word blog post on '[TOPIC]'. Target audience: beginner Tamil traders. Include: intro, 5 sections (with subpoints), examples, a short glossary, 3 image suggestions, and a 2-line CTA in Tamil."
+
+# 3) YouTube video description
+# "Write a YouTube description for a 12-minute video titled '[VIDEO_TITLE]'. Include: short hook (first 1-2 lines), 4 bullet timestamps, keyword-rich summary in Tamil, links to course and telegram, and 3 hashtags. Keep total length under 500 words."
+
+# 4) Ad headline + description (policy-safe)
+# "Provide 3 variations of ad headlines (max 30 chars) and 3 ad descriptions (max 90 chars) for promoting a free demo trading class in Tamil. Must include the phrase 'Educational only' and avoid claims of guaranteed profit."
+
+# 5) FAQ generation
+# "Generate 8 FAQs for the page '[PAGE_NAME]'. Answers must be 1-2 sentences, in Tamil, simple language, and include a short safety/disclaimer line at the end."
+
+#########################
+# SEO metadata templates
+#########################
+# TITLE: {PageTopic} | Tamil Harmonic - Learn Nifty & Forex in Tamil
+# META DESCRIPTION (EN): {one-line summary up to 160 characters} | Free demo classes • Educational only
+# META DESCRIPTION (TA): {Tamil summary under 160 chars} • இலவச டெமோ வகுப்புகள்
+# OG/Twitter: image -> /og-image.jpg, title same as page title, description same as meta
+
+#########################
+# Long headings & hero lines the owner requested
+#########################
+# Tamil long interactive hero heading (example):
+hero_heading_ta_long: "நீங்கள் பணம் இழக்கிறீர்களா? உண்மை காரணங்களை புரிந்து கொள்வோம் — நிதி மனநிலையை கட்டுப்படுத்துவது எப்படி, நம்முடன் படித்து பழக்கங்கள் மாற்றுங்கள். இலவச டெமோ வகுப்பு இங்கு!"
+
+# Short Tamil CTA line
+cta_ta: "இப்போது சேருங்கள் — இலவச டெமோ" 
+
+# English interactive hero heading (example):
+hero_heading_en_long: "Losing money in trading? Learn how to control emotions, build a plan, and trade with discipline — Educational classes, demo sessions available."
+
+# Ad-suitable English short heading examples:
+ad_headlines_en:
+- "Free Demo: Learn Nifty in Tamil"
+- "Control Emotions, Trade Smarter"
+- "Tamil Trading Classes — Educational Only"
+
+#########################
+# Example Ad Copy Variations (policy-safe)
+#########################
+# Ad 1
+headline: "Free Demo: Learn Nifty in Tamil"
+description: "Educational classes for beginners. No guaranteed profits. Join demo class today."
+
+# Ad 2
+headline: "Control Emotions, Trade Smarter"
+description: "Practical lessons on trading psychology and risk management. Educational only."
+
+#########################
+# Course / Landing Page Sections (content blocks)
+#########################
+1. Hero (title, subtitle, CTA)
+2. What you will learn (3–6 bullets)
+3. Who this is for (beginners, part-timers, hobby traders)
+4. Course curriculum (modules + short bullets)
+5. Demo class schedule (dates, signup link)
+6. Testimonials (video/text) — include note: "educational experience; results vary"
+7. Pricing & FAQ
+8. Contact & social links
+
+#########################
+# Sample Course Curriculum (short)
+#########################
+Module 1: Market Basics — NSE, BSE, order types, lots
+Module 2: Technical Tools — Candlesticks, support/resistance, indicators
+Module 3: Nifty Intraday Strategies — Plan, entry/exit, position sizing
+Module 4: Forex Basics — currency pairs, pips, leverage, risk
+Module 5: Trading Psychology & Risk Management
+Module 6: Harmonic Patterns & Price Action
+Module 7: Paper Trading & Demo Sessions
+
+#########################
+# YouTube Description Template (example)
+#########################
+video_description_template:
+"
+Hook: இந்த வீடியோவில் நாங்கள் இன்று Nifty 50 இல் முக்கிய support & resistance சுட்டிகளைக் கற்கப் போகிறோம்.
+Timestamps:
+0:00 — Intro
+1:15 — Market Hours & Basics
+3:40 — Key Levels
+7:20 — Live Example
+10:45 — Tips & Summary
+
+Join our free demo class: https://www.tamilharmonic.com/get-started
+Telegram: https://t.me/tamilharmonictraderraj
+Disclaimer: Content is educational only and not financial advice.
+#Nifty #TamilTrading #TamilHarmonic
+"
+
+#########################
+# FAQ Examples
+#########################
+FAQ_1_q: "நான் புதுமுகர் — நான் இந்தக் کور்ஸை எடுத்துக் கொள்ளலாமா?"
+FAQ_1_a: "ஆம் — இக்கோர்ஸ் அடிப்படை முதல் தொடங்குகிறது. இது கல்வி மட்டுமே; நிதி ஆலோசனையாகாது."
+
+FAQ_2_q: "நீங்கள் SEBI-பதிவு செய்யப்பட்ட ஆலோசகர்களா?"
+FAQ_2_a: "இல்லை — நாங்கள் கல்வி சேவையை வழங்குகிறோம். முதலீட்டு ஆலோசனையில்லை."
+
+#########################
+# Mandatory Disclaimer Texts (short)
+#########################
+disclaimer_short_ta: "இந்த உள்ளடக்கம் கல்விக்காக மட்டுமே. நாங்கள் SEBI அல்லது எந்த விதமான பதிவு செய்யப்பட்ட முதலீட்டு ஆலோசகரும் அல்ல." 
+disclaimer_short_en: "For educational purposes only. We are not a SEBI-registered investment advisor. No guaranteed returns."
+
+#########################
+# SEO Keyword Buckets (samples)
+#########################
+primary_keywords:
+- tamil stock market course
+- learn nifty tamil
+- forex trading tamil
+- nifty analysis tamil
+
+secondary_keywords:
+- trading psychology tamil
+- harmonic patterns tamil
+- intraday tips tamil
+
+#########################
+# CTA Variations (English + Tamil)
+#########################
+cta_en_variations:
+- "Join free demo class"
+- "Start learning today — Free demo"
+cta_ta_variations:
+- "இலவச டெமோ வகுப்பில் சேரவும்"
+- "இப்போது கற்று கொள்ளுங்கள் — இலவச டெமோ"
+
+#########################
+# Content Generation Examples (quick prompts to paste into LLM)
+#########################
+1) "Write a 200-word landing page intro in Tamil for Tamil Harmonic that explains who we are, what students will learn, and includes the short disclaimer. Tone: encouraging, simple."
+
+2) "Create 5 YouTube video titles in Tamil for Nifty intraday topic. Keep each title under 60 characters and include the keyword 'Nifty'."
+
+3) "Generate 10 tweet-sized tips (max 240 chars) in Tamil about trading psychology and risk management. Each tip should end with a short CTA: 'Join demo'."
+
+#########################
+# Output Formats to include in file
+#########################
+- Plain text snippets (Tamil + English)
+- JSON-LD examples (already in website head)
+- Short disclaimers and compliance notices
+- Prompt templates for reuse
+
+#########################
+# Notes for marketing & policy compliance
+#########################
+- Always include the educational disclaimer on pages and ads if not SEBI-registered.
+- Avoid using terms like "guaranteed profit", "sure win", or "get rich" in ad copy.
+- For paid ad platforms (Google, Meta), ensure ad text follows platform financial ads policy and country-specific rules.
+
+#########################
+# File end
+#########################
+

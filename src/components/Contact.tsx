@@ -13,7 +13,7 @@ export default function Contact() {
             We’d Love To Hear From You
           </h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            Reach us on phone/WhatsApp, email, or visit our social channels.
+            Reach us on phone/WhatsApp, email, or visit our social channels. We serve traders across Tamil Nadu, Kerala, and all of India through online classes.
           </p>
         </div>
 
@@ -39,7 +39,16 @@ export default function Contact() {
               <MapPin className="w-6 h-6" />
             </div>
             <h3 className="text-lg font-semibold text-slate-900 mb-1">Location</h3>
-            <p className="text-slate-600">Tamil Nadu, India</p>
+            <p className="text-slate-600 text-sm">No 12, Ohm Ganesh Nagar</p>
+            <p className="text-slate-600 text-sm">Coimbatore, TN 641041</p>
+            <a 
+              href="https://www.google.com/maps?q=11.01684,76.95583" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline text-sm mt-1 inline-block"
+            >
+              View on Maps →
+            </a>
           </div>
 
           <div className="bg-white rounded-2xl p-6 shadow-lg border border-slate-200 animate-fade-in-up" style={{ animationDelay: '300ms' }}>
@@ -67,6 +76,42 @@ export default function Contact() {
           >
             Go to Enquiry Form
           </Link>
+        </div>
+
+        {/* Google Maps Embed */}
+        <div className="mt-16 animate-fade-in-up">
+          <div className="bg-white rounded-2xl shadow-lg border border-slate-200 overflow-hidden">
+            <div className="p-6 border-b border-slate-200">
+              <h3 className="text-2xl font-bold text-slate-900 mb-2">Find Us</h3>
+              <p className="text-slate-600">
+                Visit us at our location in Coimbatore, Tamil Nadu. We provide online trading education services across India.
+              </p>
+            </div>
+            <div className="relative w-full h-96">
+              <iframe
+                src={`https://www.google.com/maps?q=11.01684,76.95583&hl=en&z=15&output=embed`}
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Tamil Harmonic Location - Coimbatore, Tamil Nadu"
+                className="absolute inset-0"
+              ></iframe>
+            </div>
+            <div className="p-6 bg-slate-50">
+              <p className="text-sm text-slate-600 mb-2">
+                <strong>Address:</strong> No 12, Ohm Ganesh Nagar, Coimbatore, Tamil Nadu 641041, India
+              </p>
+              <p className="text-xs text-slate-500">
+                <strong>Service Area:</strong> Tamil Nadu, Kerala, and all of India (Online Classes Available)
+              </p>
+              <p className="text-xs text-slate-500 mt-2 italic">
+                Note: This is an educational organization. Not SEBI registered. Educational purposes only.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>

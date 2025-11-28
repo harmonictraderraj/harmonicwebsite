@@ -34,6 +34,18 @@ export default function SEO({
       {/* Canonical URL */}
       <link rel="canonical" href={canonicalUrl} />
 
+      {/* Geo Meta Tags */}
+      <meta name="geo.region" content="IN-TN" />
+      <meta name="geo.placename" content="Coimbatore" />
+      <meta name="geo.position" content="11.01684;76.95583" />
+      <meta name="ICBM" content="11.01684, 76.95583" />
+      <meta name="distribution" content="global" />
+
+      {/* Hreflang Tags */}
+      <link rel="alternate" href={canonicalUrl} hreflang="ta-IN" />
+      <link rel="alternate" href={canonicalUrl} hreflang="en-IN" />
+      <link rel="alternate" href={canonicalUrl} hreflang="x-default" />
+
       {/* Open Graph / Facebook */}
       <meta property="og:type" content={ogType} />
       <meta property="og:url" content={canonicalUrl} />

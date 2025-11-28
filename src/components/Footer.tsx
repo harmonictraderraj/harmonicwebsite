@@ -60,21 +60,30 @@ export default function Footer() {
                   <p>+91 93603 49002</p>
                 </div>
               </a>
-              <div className="flex items-start gap-3 text-slate-400">
-                <MapPin className="w-5 h-5 flex-shrink-0 mt-0.5" />
+              <a 
+                href="https://www.google.com/maps?q=11.01684,76.95583" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-start gap-3 text-slate-400 hover:text-cyan-400 transition-colors group"
+              >
+                <MapPin className="w-5 h-5 flex-shrink-0 mt-0.5 group-hover:scale-110 transition-transform" />
                 <div>
                   <p className="font-medium text-white">Location</p>
-                  <p>Tamil Nadu, India</p>
+                  <p>No 12, Ohm Ganesh Nagar</p>
+                  <p>Coimbatore, Tamil Nadu 641041</p>
+                  <p className="text-xs mt-1 text-cyan-400">View on Google Maps →</p>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
         </div>
 
         <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-slate-400 text-sm">
-            © 2025 Tamil Harmonic Trader Raj. All rights reserved.
-          </p>
+          <div className="text-slate-400 text-sm">
+            <p>© 2025 Tamil Harmonic Trader Raj. All rights reserved.</p>
+            <p className="mt-1 text-xs">Trading Educational Organization | Coimbatore, Tamil Nadu, India</p>
+            <p className="mt-1 text-xs text-slate-500">Educational purposes only. Not SEBI registered.</p>
+          </div>
           <div className="flex gap-6 text-sm">
             <Link to="/privacy-policy" className="text-slate-400 hover:text-cyan-400 transition-colors">Privacy Policy</Link>
             <Link to="/terms-of-service" className="text-slate-400 hover:text-cyan-400 transition-colors">Terms of Service</Link>
